@@ -16,6 +16,11 @@
 /docs/
 /ResearchConfinement/
 /researchconfinment/
+*.log
+*.out
+*.trace
+*.tmp
+*.cache
 
 # Runtime logs and test output
 /runtime_logs/
@@ -24,3 +29,29 @@
 /qbit_miner_preview_validation_test.csv
 /test_out.txt
 /test_ctest_exit.txt
+
+# Large generated data and model artifacts
+*.bin
+*.dat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.arrow
+*.jsonl
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tfrecord
+*.sqlite
+*.db
+*.zip
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
